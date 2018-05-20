@@ -14,6 +14,10 @@ body {
   float: left 
 }
 
+table#tableOverview, table#tableHosts {
+	width: 100%;
+}
+
 #totalsHosts th, #totalsServices th {
   background: #707677;
   color: white;
@@ -128,5 +132,5 @@ a.uglyfirstahack {
 }
 
 body#popup {
-  min-width: 450px;
+  width: 100%;
 }
