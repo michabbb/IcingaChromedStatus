@@ -14,8 +14,13 @@ body {
   float: left 
 }
 
-table#tableOverview, table#tableHosts {
+table#tableOverview, table#tableHosts, #tabs, #tab-1,#tab-2,#tab-3,#tab-4 {
 	width: 100%;
+}
+
+#tabs {
+	margin-right: 50px;
+	padding-right: 150px;
 }
 
 #totalsHosts th, #totalsServices th {
